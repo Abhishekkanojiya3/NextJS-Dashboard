@@ -14,14 +14,14 @@ const menuItems = [
         path: '/Dashboard',
       },
       {
-        title: 'Reports',
+        title: 'Users',
         icon: <FaChartLine />,
-        path: '/Dashboard/reports',
+        path: '/Dashboard/users',
       },
       {
-        title: 'Analytics',
+        title: 'Products',
         icon: <FaChartLine />,
-        path: '/Dashboard/analytics',
+        path: '/Dashboard/products',
       },
     ],
   },
