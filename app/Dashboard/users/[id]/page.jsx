@@ -1,10 +1,12 @@
 import styles from "@/app/ui/dashboard/users/singleUser/singleUser.module.css";
 import Image from "next/image";
+import { fetchUser } from "@/app/lib/data";
+import { updateUser } from "@/app/lib/actions";
 
 const SingleUserPage = async ({ params }) => {
   
-//   const { id } = params;
-//   const user = await fetchUser(id);
+  const { id } = params;
+  const user = await fetchUser(id);
 
   return (
     <div className={styles.container}>
